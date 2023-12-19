@@ -32,4 +32,5 @@ Los recursos se administran a través del fichero recursos.js en los que se podr
 
 Aquí se muestra un pequeño mini juego haciendo uso de FlatEngine, podemos encontrarlo en la carpeta "Ejemplo de juego"
 
-[enter link description here](https://github.com/IsmaMoraLop/FlatEngine/blob/main/muestra/muestra.mp4)
+https://github.com/IsmaMoraLop/FlatEngine/assets/154323808/d621c75e-7160-4054-b466-07070d15f555
+
