@@ -1,0 +1,22 @@
+body{
+	font-size: 50px;
+	background-color: black;
+	overflow: hidden; /* Hide scrollbars */
+
+}
+
+button{
+	font-size: 75px;
+	/*border: none;*/
+    /*outline: none;*/
+}
+canvas{
+	background-image: url("recursos/fondo.jpg");
+}
+#botones{
+	position:absolute;
+	width:350px;
+	height: 350px;
+	bottom:0%;
+	display:none;
+}

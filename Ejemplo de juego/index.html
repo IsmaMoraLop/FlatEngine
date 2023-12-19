@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">	
+</head>
+<body>
+
+  <!--Aqui se dibuja el juego-->
+  <canvas id="canvas" width="600" height="750">
+
+  </canvas>
+  <div id="botones">
+    <!--Espacio de boton-->
+    <button style="position:relative;width: 1.4em;height: 1.4em;opacity: 0;"></button>
+    <button style="position:relative;
+                          /*coordenadas de cada botón
+
+                          left: coordenada x
+                          top: coordenada y
+      
+
+                         
+                        left: 110px;
+                         top: 400px;
+                         /*Transparencia del botón*/
+                         width: 1.4em;
+                         height: 1.4em;
+                         opacity: 0.05;
+                         "id="arriba"></button>
+                             <button style="position:relative;width: 1.4em;height: 1.4em;opacity: 0;"></button>
+
+    <button style="position:relative;
+                          /*coordenadas de cada botón
+
+                          left: coordenada x
+                          top: coordenada y
+      
+                          
+                         left: 55px;
+                         top: 430px;
+                         /*Transparencia del botón*/
+                         width: 1.4em;
+                         height: 1.4em;
+                         opacity: 0.05;
+                         
+                         ;"id="izquierda"></button>
+          
+<button style="position:relative;
+          /*coordenadas de cada botón
+
+          left: coordenada x
+          top: coordenada y
+
+          
+        left: 240px;
+        top: 425px;
+         /*Transparencia del botón*/
+         opacity: 0.05;
+         width:1.4em;
+         height: 1.4em;"id="arriba" onclick="pressKey(' ')"></button>
+
+
+
+          <button style="position:relative;
+                          /*coordenadas de cada botón
+
+                          left: coordenada x
+                          top: coordenada y
+      
+                          
+                         
+                         left: 165px;
+                         top: 430px;
+                         /*Transparencia del botón*/
+                         width: 1.4em;
+                         height: 1.4em;
+                         opacity: 0.05;
+                         
+                         ;" id="derecha"></button>
+    <button style="position:relative;width: 1.4em;height: 1.4em;opacity: 0;"></button>
+
+          <button style="position:relative;
+                          /*coordenadas de cada botón
+
+                          left: coordenada x
+                          top: coordenada y
+      
+                          
+                         left: 130px;
+
+                         /*Transparencia del botón
+                         left: 110px;
+                         top: 460px;*/
+                         width: 1.4em;
+                         height: 1.4em;
+                         opacity: 0.05;
+                         "id="abajo"></button>
+          
+
+      
+
+    </div>
+        
+    
+    <!--Codigo del motor-->
+    <script src="engine/keyboard.js"></script>
+    <script src="engine/entidad.js"></script>
+    <script src="engine/texto.js"></script>
+    <script src="engine/dibujante.js"></script>
+    <script src="engine/controlador.js"></script>
+    <script src="recursos.js"></script>
+    <script src="audio.js"></script>
+    <script src="engine/fisicas.js"></script>
+    <script src="engine/misc.js"></script>
+
+	<!--codigo del juego-->
+	<script src="enemigo.js"></script>
+	<script src="jugador.js"></script>
+  <script src="personaje.js"></script>
+  <script src="proyectil.js"></script>
+  <script src="controlAndroid.js"></script>
+
+	<script src="juego.js"></script>
+
+</body>
+</html>
